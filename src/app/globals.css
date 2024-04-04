@@ -31,3 +31,8 @@ body {
     text-wrap: balance;
   }
 }
+
+#socialmedia  div:hover svg
+{
+    color: white !important;
+}
