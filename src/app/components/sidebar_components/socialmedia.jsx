@@ -3,7 +3,7 @@ import React from 'react'
 const Socialmedia = () => {
   return (
 
-    <div className='flex gap-2 w-fit mx-auto mt-3' id="socialmedia">
+    <div className='flex gap-2 w-fit mx-auto mt-2' id="socialmedia">
 
       <div className='bg-secondary p-2 rounded size-9 flex items-center justify-center hover:bg-active transition-all duration-200 ease-in-out' >
         <a href="#"><i className="fa-brands fa-facebook-f text-[#1974EC]"></i></a>
