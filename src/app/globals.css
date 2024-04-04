@@ -25,6 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+main {
+  background-image: url('/assets/beams.jpg');
+  background-size: cover;
+
+};
 
 @layer utilities {
   .text-balance {
