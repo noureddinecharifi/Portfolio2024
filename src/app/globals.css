@@ -26,10 +26,13 @@ body {
     rgb(var(--background-start-rgb));
 }
 main {
-  background-image: url('/assets/beams.jpg');
-  background-size: cover;
+  background-image: url('/assets/beams.jpg'), url('/assets/grid.svg');
+  background-size: cover, auto; 
+  background-repeat: no-repeat, repeat; 
+  background-blend-mode: overlay;
+  
+}
 
-};
 
 @layer utilities {
   .text-balance {

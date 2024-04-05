@@ -7,7 +7,7 @@ function Menu({ setCurrentTab }) {
     const [selectedButton, setSelectedButton] = useState("About");
 
     return (
-        <div className=" primary h-full w-40 flex items-center justify-center p-4 rounded-xl flex-col gap-4 shadow-lg">
+        <div className=" bg-primary h-full w-40 flex items-center justify-center p-4 rounded-xl flex-col gap-4 shadow-lg">
             <Menubtns
                 iconClass="fa-regular fa-user"
                 label="About"
