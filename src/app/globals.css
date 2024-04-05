@@ -33,7 +33,6 @@ main {
   
 }
 
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -43,4 +42,12 @@ main {
 #socialmedia  div:hover svg
 {
     color: white !important;
+}
+
+._fixed
+{
+  position: fixed ;
+  left : 1em;
+  top: 1em;
+  width : calc(100% - 2em);
 }

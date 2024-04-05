@@ -4,7 +4,7 @@ import SkillsCard from './About_components/Skills_cards'
 
 function About() {
   return (
-    <div className=' h-36 w-full'>
+    <div className=' w-full'>
       <HeaderTitle text='About ' />
       <div>
         <p className='text-gray-700 mb-5'>

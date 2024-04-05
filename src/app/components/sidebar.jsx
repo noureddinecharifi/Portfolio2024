@@ -6,7 +6,7 @@ import Custombutton from './sidebar_components/Custombutton'
 
 const Sidebar = () => {
   return (
-    <aside className=' bg-primary w-[320px] text-solid rounded-2xl px-7 py-10  pt-20 shadow-lg'>
+    <aside className=' bg-primary w-full sm:w-[320px] text-solid rounded-2xl px-7 py-10  pt-20 shadow-lg'>
       <div className=' relative'>
         <div className="relative bottom-20 -translate-y-1/2 rounded-2xl overflow-hidden w-[180px] mx-auto -mb-40 shadow-md">
           <Image

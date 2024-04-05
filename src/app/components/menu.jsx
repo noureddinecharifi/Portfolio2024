@@ -2,12 +2,13 @@
 import React, { useState } from 'react';
 import Menubtns from './Menu_components/menu_btns';
 
+
 function Menu({ setCurrentTab }) {
 
     const [selectedButton, setSelectedButton] = useState("About");
 
     return (
-        <div className=" bg-primary h-full w-40 flex items-center justify-center p-4 rounded-xl flex-col gap-4 shadow-lg">
+        <div className=" p-4 rounded-xl bg-primary  w-full  sm:shadow-none h-28 sm:bg-transparent sm:w-fit flex items-center justify-center sm:flex-row flex-col gap-4 shadow-lg " id="menu">
             <Menubtns
                 iconClass="fa-regular fa-user"
                 label="About"
