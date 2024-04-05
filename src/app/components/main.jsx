@@ -21,7 +21,7 @@ function Main({ currentTab }) {
     }
 
     return (
-        <div className="bg-primary w-full rounded-2xl shadow-lg overflow-auto p-14">
+        <div className="bg-primary w-full rounded-2xl shadow-2xl overflow-auto p-14">
             <div className='transition-all duration-700 ease-in-out '>
                 {getPage(currentTab)}
             </div>
