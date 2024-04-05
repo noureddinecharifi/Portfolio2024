@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import About from './About'
 import Resume from './Resume'
 import Works from './Works'
@@ -21,10 +21,10 @@ function Main({ currentTab }) {
     }
 
     return (
-        <div className=" bg-primary w-full rounded-xl shadow-lg overflow-hidden">
-           <div className='transition-all duration-700 ease-in-out '>
-           {getPage(currentTab)}
-           </div>
+        <div className="bg-primary w-full rounded-2xl shadow-lg overflow-auto p-14">
+            <div className='transition-all duration-700 ease-in-out '>
+                {getPage(currentTab)}
+            </div>
         </div>
     )
 }
